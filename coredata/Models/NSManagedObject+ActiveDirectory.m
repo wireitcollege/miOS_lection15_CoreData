@@ -24,15 +24,19 @@
 }
 
 + (NSFetchRequest *)requestSortingBy:(NSString *)key ascending:(BOOL)ascending withPredicate:(NSPredicate *)predicate {
+    NSArray *terms = @[[NSSortDescriptor sortDescriptorWithKey:key ascending:ascending]];
+    return [self requestWithSortDescriptors:terms withPredicate:predicate];
+}
+
++ (NSFetchRequest *)requestWithSortDescriptors:(NSArray *)terms withPredicate:(NSPredicate *)predicate {
     NSFetchRequest *request = [self request];
-    request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:key ascending:ascending]];
+    request.sortDescriptors = terms;
     request.predicate = predicate;
     return request;
 }
 
-+ (NSFetchedResultsController *)fetchedResultSortingBy:(NSString *)key ascending:(BOOL)ascending predicate:(NSPredicate *)predicate groupedBy:(NSString *)sectionName {
-    
-    NSFetchRequest *request = [self requestSortingBy:key ascending:ascending withPredicate:predicate];
++ (NSFetchedResultsController *)fetchedResulttWithSortDescriptors:(NSArray *)terms predicate:(NSPredicate *)predicate groupedBy:(NSString *)sectionName {
+    NSFetchRequest *request = [self requestWithSortDescriptors:terms withPredicate:predicate];
     
     NSFetchedResultsController *controller = [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:[NSManagedObjectContext mainContext] sectionNameKeyPath:sectionName cacheName:nil];
     NSError *error;
@@ -41,6 +45,11 @@
     }
     
     return controller;
+}
+
++ (NSFetchedResultsController *)fetchedResultSortingBy:(NSString *)key ascending:(BOOL)ascending predicate:(NSPredicate *)predicate groupedBy:(NSString *)sectionName {
+    NSArray *terms = @[[NSSortDescriptor sortDescriptorWithKey:key ascending:ascending]];
+    return [self fetchedResulttWithSortDescriptors:terms predicate:predicate groupedBy:sectionName];
 }
 
 @end

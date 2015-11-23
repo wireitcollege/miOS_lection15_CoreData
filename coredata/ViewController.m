@@ -33,10 +33,15 @@
 
 - (NSFetchedResultsController *)fetchedResultsController {
     if (!_fetchedResultsController) {
-        _fetchedResultsController = [Person fetchedResultSortingBy:@"name"
+        NSArray *terms = @[[NSSortDescriptor sortDescriptorWithKey:@"country"
                                                          ascending:YES
-                                                         predicate:nil
-                                                         groupedBy:nil];
+                                                          selector:@selector(localizedStandardCompare:)],
+                           [NSSortDescriptor sortDescriptorWithKey:@"name"
+                                                         ascending:YES
+                                                          selector:@selector(localizedStandardCompare:)]];
+        _fetchedResultsController = [Person fetchedResulttWithSortDescriptors:terms
+                                                                    predicate:nil
+                                                                    groupedBy:@"country"];
         _fetchedResultsController.delegate = self;
     }
     return _fetchedResultsController;
@@ -54,7 +59,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    id sectionInfo = self.fetchedResultsController.sections[section];
+    id <NSFetchedResultsSectionInfo> sectionInfo = self.fetchedResultsController.sections[section];
     return [sectionInfo numberOfObjects];
 }
 
@@ -65,6 +70,14 @@
     [self configureCell:cell atIndexPath:indexPath];
     
     return cell;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    
+    id <NSFetchedResultsSectionInfo> sectionInfo =
+    self.fetchedResultsController.sections[section];
+    
+    return sectionInfo.name;
 }
 
 #pragma mark - Fetched Results Controller Delegate

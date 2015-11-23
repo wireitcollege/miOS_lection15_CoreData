@@ -13,6 +13,8 @@
 + (instancetype)createEntity;
 + (NSFetchRequest *)request;
 + (NSFetchRequest *)requestSortingBy:(NSString *)key ascending:(BOOL)ascending withPredicate:(NSPredicate *)predicate;
++ (NSFetchRequest *)requestWithSortDescriptors:(NSArray *)terms withPredicate:(NSPredicate *)predicate;
++ (NSFetchedResultsController *)fetchedResulttWithSortDescriptors:(NSArray *)terms predicate:(NSPredicate *)predicate groupedBy:(NSString *)sectionName;
 + (NSFetchedResultsController *)fetchedResultSortingBy:(NSString *)key ascending:(BOOL)ascending predicate:(NSPredicate *)predicate groupedBy:(NSString *)sectionName;
 
 @end
