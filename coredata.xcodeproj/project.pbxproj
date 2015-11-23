@@ -14,14 +14,18 @@
 		84C9AB8F1BFC6A7F00DD7DFB /* coredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C9AB8D1BFC6A7F00DD7DFB /* coredata.xcdatamodeld */; };
 		84C9AB911BFC6A7F00DD7DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C9AB901BFC6A7F00DD7DFB /* Assets.xcassets */; };
 		84C9AB941BFC6A7F00DD7DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C9AB921BFC6A7F00DD7DFB /* LaunchScreen.storyboard */; };
-		84C9ABA41BFC70A800DD7DFB /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9AB9D1BFC70A800DD7DFB /* Person+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		84C9ABA51BFC70A800DD7DFB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9AB9F1BFC70A800DD7DFB /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABA61BFC70A800DD7DFB /* Phone+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABA11BFC70A800DD7DFB /* Phone+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABA71BFC70A800DD7DFB /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABA31BFC70A800DD7DFB /* Phone.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABAA1BFC72A300DD7DFB /* TextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABA91BFC72A300DD7DFB /* TextFieldTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABAE1BFC73C100DD7DFB /* AddPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABAD1BFC73C100DD7DFB /* AddPersonController.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABB11BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABB01BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABB41C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABB31C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABB81C03100300DD7DFB /* Model2ToModel3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABB71C03100300DD7DFB /* Model2ToModel3.xcmappingmodel */; settings = {ASSET_TAGS = (); }; };
+		84C9ABBB1C0310E900DD7DFB /* PersonMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABBA1C0310E900DD7DFB /* PersonMigrationPolicy.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABC41C0312DB00DD7DFB /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABBD1C0312DB00DD7DFB /* Person+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABC51C0312DB00DD7DFB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABBF1C0312DB00DD7DFB /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABC61C0312DB00DD7DFB /* Country+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABC11C0312DB00DD7DFB /* Country+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABC71C0312DB00DD7DFB /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABC31C0312DB00DD7DFB /* Country.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +40,6 @@
 		84C9AB901BFC6A7F00DD7DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C9AB931BFC6A7F00DD7DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C9AB951BFC6A7F00DD7DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84C9AB9C1BFC70A800DD7DFB /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataProperties.h"; path = "Models/Person+CoreDataProperties.h"; sourceTree = "<group>"; };
-		84C9AB9D1BFC70A800DD7DFB /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataProperties.m"; path = "Models/Person+CoreDataProperties.m"; sourceTree = "<group>"; };
-		84C9AB9E1BFC70A800DD7DFB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Models/Person.h; sourceTree = "<group>"; };
-		84C9AB9F1BFC70A800DD7DFB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Models/Person.m; sourceTree = "<group>"; };
 		84C9ABA01BFC70A800DD7DFB /* Phone+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Phone+CoreDataProperties.h"; path = "Models/Phone+CoreDataProperties.h"; sourceTree = "<group>"; };
 		84C9ABA11BFC70A800DD7DFB /* Phone+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Phone+CoreDataProperties.m"; path = "Models/Phone+CoreDataProperties.m"; sourceTree = "<group>"; };
 		84C9ABA21BFC70A800DD7DFB /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Phone.h; path = Models/Phone.h; sourceTree = "<group>"; };
@@ -53,6 +53,18 @@
 		84C9ABB21C03019800DD7DFB /* NSManagedObject+ActiveDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+ActiveDirectory.h"; path = "Models/NSManagedObject+ActiveDirectory.h"; sourceTree = "<group>"; };
 		84C9ABB31C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+ActiveDirectory.m"; path = "Models/NSManagedObject+ActiveDirectory.m"; sourceTree = "<group>"; };
 		84C9ABB51C030A2F00DD7DFB /* coredata 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "coredata 2.xcdatamodel"; sourceTree = "<group>"; };
+		84C9ABB61C030EFF00DD7DFB /* coredata 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "coredata 3.xcdatamodel"; sourceTree = "<group>"; };
+		84C9ABB71C03100300DD7DFB /* Model2ToModel3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model2ToModel3.xcmappingmodel; sourceTree = "<group>"; };
+		84C9ABB91C0310E900DD7DFB /* PersonMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonMigrationPolicy.h; path = Models/PersonMigrationPolicy.h; sourceTree = "<group>"; };
+		84C9ABBA1C0310E900DD7DFB /* PersonMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonMigrationPolicy.m; path = Models/PersonMigrationPolicy.m; sourceTree = "<group>"; };
+		84C9ABBC1C0312DB00DD7DFB /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84C9ABBD1C0312DB00DD7DFB /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84C9ABBE1C0312DB00DD7DFB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		84C9ABBF1C0312DB00DD7DFB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		84C9ABC01C0312DB00DD7DFB /* Country+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84C9ABC11C0312DB00DD7DFB /* Country+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84C9ABC21C0312DB00DD7DFB /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		84C9ABC31C0312DB00DD7DFB /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,16 +128,23 @@
 		84C9AB9B1BFC704000DD7DFB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84C9ABBC1C0312DB00DD7DFB /* Person+CoreDataProperties.h */,
+				84C9ABBD1C0312DB00DD7DFB /* Person+CoreDataProperties.m */,
+				84C9ABBE1C0312DB00DD7DFB /* Person.h */,
+				84C9ABBF1C0312DB00DD7DFB /* Person.m */,
+				84C9ABC01C0312DB00DD7DFB /* Country+CoreDataProperties.h */,
+				84C9ABC11C0312DB00DD7DFB /* Country+CoreDataProperties.m */,
+				84C9ABC21C0312DB00DD7DFB /* Country.h */,
+				84C9ABC31C0312DB00DD7DFB /* Country.m */,
+				84C9ABB71C03100300DD7DFB /* Model2ToModel3.xcmappingmodel */,
 				84C9ABB21C03019800DD7DFB /* NSManagedObject+ActiveDirectory.h */,
 				84C9ABB31C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m */,
-				84C9AB9C1BFC70A800DD7DFB /* Person+CoreDataProperties.h */,
-				84C9AB9D1BFC70A800DD7DFB /* Person+CoreDataProperties.m */,
-				84C9AB9E1BFC70A800DD7DFB /* Person.h */,
-				84C9AB9F1BFC70A800DD7DFB /* Person.m */,
 				84C9ABA01BFC70A800DD7DFB /* Phone+CoreDataProperties.h */,
 				84C9ABA11BFC70A800DD7DFB /* Phone+CoreDataProperties.m */,
 				84C9ABA21BFC70A800DD7DFB /* Phone.h */,
 				84C9ABA31BFC70A800DD7DFB /* Phone.m */,
+				84C9ABB91C0310E900DD7DFB /* PersonMigrationPolicy.h */,
+				84C9ABBA1C0310E900DD7DFB /* PersonMigrationPolicy.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -211,14 +230,18 @@
 			files = (
 				84C9ABAE1BFC73C100DD7DFB /* AddPersonController.m in Sources */,
 				84C9ABA61BFC70A800DD7DFB /* Phone+CoreDataProperties.m in Sources */,
-				84C9ABA51BFC70A800DD7DFB /* Person.m in Sources */,
+				84C9ABC51C0312DB00DD7DFB /* Person.m in Sources */,
+				84C9ABBB1C0310E900DD7DFB /* PersonMigrationPolicy.m in Sources */,
 				84C9ABB41C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m in Sources */,
+				84C9ABC61C0312DB00DD7DFB /* Country+CoreDataProperties.m in Sources */,
 				84C9AB8F1BFC6A7F00DD7DFB /* coredata.xcdatamodeld in Sources */,
 				84C9AB891BFC6A7E00DD7DFB /* ViewController.m in Sources */,
+				84C9ABC71C0312DB00DD7DFB /* Country.m in Sources */,
 				84C9ABB11BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.m in Sources */,
+				84C9ABB81C03100300DD7DFB /* Model2ToModel3.xcmappingmodel in Sources */,
+				84C9ABC41C0312DB00DD7DFB /* Person+CoreDataProperties.m in Sources */,
 				84C9ABA71BFC70A800DD7DFB /* Phone.m in Sources */,
 				84C9AB861BFC6A7E00DD7DFB /* AppDelegate.m in Sources */,
-				84C9ABA41BFC70A800DD7DFB /* Person+CoreDataProperties.m in Sources */,
 				84C9AB831BFC6A7E00DD7DFB /* main.m in Sources */,
 				84C9ABAA1BFC72A300DD7DFB /* TextFieldTableViewCell.m in Sources */,
 			);
@@ -374,10 +397,11 @@
 		84C9AB8D1BFC6A7F00DD7DFB /* coredata.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				84C9ABB61C030EFF00DD7DFB /* coredata 3.xcdatamodel */,
 				84C9ABB51C030A2F00DD7DFB /* coredata 2.xcdatamodel */,
 				84C9AB8E1BFC6A7F00DD7DFB /* coredata.xcdatamodel */,
 			);
-			currentVersion = 84C9ABB51C030A2F00DD7DFB /* coredata 2.xcdatamodel */;
+			currentVersion = 84C9ABB61C030EFF00DD7DFB /* coredata 3.xcdatamodel */;
 			path = coredata.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

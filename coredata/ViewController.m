@@ -33,7 +33,7 @@
 
 - (NSFetchedResultsController *)fetchedResultsController {
     if (!_fetchedResultsController) {
-        NSArray *terms = @[[NSSortDescriptor sortDescriptorWithKey:@"country"
+        NSArray *terms = @[[NSSortDescriptor sortDescriptorWithKey:@"country.name"
                                                          ascending:YES
                                                           selector:@selector(localizedStandardCompare:)],
                            [NSSortDescriptor sortDescriptorWithKey:@"name"
@@ -41,7 +41,7 @@
                                                           selector:@selector(localizedStandardCompare:)]];
         _fetchedResultsController = [Person fetchedResulttWithSortDescriptors:terms
                                                                     predicate:nil
-                                                                    groupedBy:@"country"];
+                                                                    groupedBy:@"countryName"];
         _fetchedResultsController.delegate = self;
     }
     return _fetchedResultsController;

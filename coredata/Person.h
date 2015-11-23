@@ -2,12 +2,14 @@
 //  Person.h
 //  coredata
 //
-//  Created by Admin on 11/18/15.
+//  Created by Admin on 11/23/15.
 //  Copyright © 2015 Wire IT College. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+
+@class Phone;
 
 NS_ASSUME_NONNULL_BEGIN
 
