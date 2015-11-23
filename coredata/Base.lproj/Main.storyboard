@@ -193,6 +193,34 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="srA-a8-lBy">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Text Field Cell" id="cHT-M6-B9A">
+                                        <rect key="frame" x="0.0" y="347" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cHT-M6-B9A" id="PYX-tx-GWC">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ya2-B7-6Yb">
+                                                    <rect key="frame" x="10" y="0.0" width="310" height="43"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="ya2-B7-6Yb" secondAttribute="trailing" id="4Bn-7G-X1Y"/>
+                                                <constraint firstAttribute="bottom" secondItem="ya2-B7-6Yb" secondAttribute="bottom" id="ENu-PZ-WyA"/>
+                                                <constraint firstItem="ya2-B7-6Yb" firstAttribute="top" secondItem="PYX-tx-GWC" secondAttribute="top" id="FnI-Fa-O2W"/>
+                                                <constraint firstItem="ya2-B7-6Yb" firstAttribute="leading" secondItem="PYX-tx-GWC" secondAttribute="leading" constant="10" id="SLO-sd-tuS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="iBQ-f1-szS" id="FEl-Z0-NEK"/>
@@ -208,6 +236,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="birthday" destination="YjG-pv-8i2" id="dId-g0-vz3"/>
+                        <outlet property="country" destination="ya2-B7-6Yb" id="QFJ-lu-CrC"/>
                         <outlet property="firstName" destination="T6p-cX-Xtj" id="e5j-Uj-KSk"/>
                         <outlet property="lastName" destination="avw-c8-Q0e" id="66U-xD-y4b"/>
                         <outlet property="phone" destination="we5-pV-fcb" id="cgm-qd-K28"/>

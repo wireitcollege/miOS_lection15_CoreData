@@ -25,6 +25,7 @@
     newPerson.name = self.firstName.text;
     newPerson.lastName = self.lastName.text;
     newPerson.birthday = self.birthday.text;
+    newPerson.country = self.country.text;
     
     Phone *newPhone = [Phone createEntity];
     newPhone.number = self.phone.text;

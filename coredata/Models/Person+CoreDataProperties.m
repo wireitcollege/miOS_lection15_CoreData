@@ -15,6 +15,7 @@
 
 @dynamic name;
 @dynamic birthday;
+@dynamic country;
 @dynamic lastName;
 @dynamic email;
 @dynamic telephones;

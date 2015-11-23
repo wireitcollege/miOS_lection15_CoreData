@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *lastName;
 @property (weak, nonatomic) IBOutlet UITextField *birthday;
 @property (weak, nonatomic) IBOutlet UITextField *phone;
+@property (weak, nonatomic) IBOutlet UITextField *country;
 - (IBAction)handleDone:(UIBarButtonItem *)sender;
 
 @end

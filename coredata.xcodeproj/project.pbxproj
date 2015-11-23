@@ -52,6 +52,7 @@
 		84C9ABB01BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MainContext.m"; sourceTree = "<group>"; };
 		84C9ABB21C03019800DD7DFB /* NSManagedObject+ActiveDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+ActiveDirectory.h"; path = "Models/NSManagedObject+ActiveDirectory.h"; sourceTree = "<group>"; };
 		84C9ABB31C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+ActiveDirectory.m"; path = "Models/NSManagedObject+ActiveDirectory.m"; sourceTree = "<group>"; };
+		84C9ABB51C030A2F00DD7DFB /* coredata 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "coredata 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,9 +374,10 @@
 		84C9AB8D1BFC6A7F00DD7DFB /* coredata.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				84C9ABB51C030A2F00DD7DFB /* coredata 2.xcdatamodel */,
 				84C9AB8E1BFC6A7F00DD7DFB /* coredata.xcdatamodel */,
 			);
-			currentVersion = 84C9AB8E1BFC6A7F00DD7DFB /* coredata.xcdatamodel */;
+			currentVersion = 84C9ABB51C030A2F00DD7DFB /* coredata 2.xcdatamodel */;
 			path = coredata.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
