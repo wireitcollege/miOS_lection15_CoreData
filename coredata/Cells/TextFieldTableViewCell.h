@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TextFieldTableViewCell.h
 //  coredata
 //
 //  Created by Admin on 11/18/15.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface TextFieldTableViewCell : UITableViewCell
 
 @end
-
