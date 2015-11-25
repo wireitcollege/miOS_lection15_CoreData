@@ -33,7 +33,6 @@
     dInstance.lastName = sInstance.lastName;
     dInstance.birthday = sInstance.birthday;
     dInstance.email = sInstance.email;
-    dInstance.telephones = sInstance.telephones;
     
     NSString *nameOfACountry = [sInstance valueForKey:@"country"];
     
@@ -51,6 +50,10 @@
              withDestinationInstance:dInstance
                     forEntityMapping:mapping];
     
+    return YES;
+}
+
+- (BOOL)createRelationshipsForDestinationInstance:(NSManagedObject *)dInstance entityMapping:(NSEntityMapping *)mapping manager:(NSMigrationManager *)manager error:(NSError * _Nullable __autoreleasing *)error {
     return YES;
 }
 
