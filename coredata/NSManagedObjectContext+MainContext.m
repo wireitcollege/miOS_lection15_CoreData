@@ -15,6 +15,12 @@
     return [(AppDelegate *)[UIApplication sharedApplication].delegate managedObjectContext];
 }
 
++ (instancetype)childContext {
+    NSManagedObjectContext *context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSPrivateQueueConcurrencyType];
+    context.parentContext = [self mainContext];
+    return context;
+}
+
 - (void)saveContext {
     [(AppDelegate *)[UIApplication sharedApplication].delegate saveContext];
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C8B5AF1C0D99E60066EA9A /* Country+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B5AE1C0D99E60066EA9A /* Country+Annotation.m */; settings = {ASSET_TAGS = (); }; };
+		84C8B5B11C0D9A170066EA9A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C8B5B01C0D9A170066EA9A /* MapKit.framework */; };
+		84C8B5B51C0D9BE00066EA9A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B5B41C0D9BE00066EA9A /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84C8B5B81C0DA3F20066EA9A /* ContactsByCountryTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8B5B71C0DA3F20066EA9A /* ContactsByCountryTVC.m */; settings = {ASSET_TAGS = (); }; };
 		84C9AB831BFC6A7E00DD7DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9AB821BFC6A7E00DD7DFB /* main.m */; };
 		84C9AB861BFC6A7E00DD7DFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9AB851BFC6A7E00DD7DFB /* AppDelegate.m */; };
 		84C9AB891BFC6A7E00DD7DFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9AB881BFC6A7E00DD7DFB /* ViewController.m */; };
@@ -23,12 +27,23 @@
 		84C9ABBB1C0310E900DD7DFB /* PersonMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABBA1C0310E900DD7DFB /* PersonMigrationPolicy.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABC41C0312DB00DD7DFB /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABBD1C0312DB00DD7DFB /* Person+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABC51C0312DB00DD7DFB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABBF1C0312DB00DD7DFB /* Person.m */; settings = {ASSET_TAGS = (); }; };
-		84C9ABC61C0312DB00DD7DFB /* Country+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABC11C0312DB00DD7DFB /* Country+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		84C9ABC71C0312DB00DD7DFB /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABC31C0312DB00DD7DFB /* Country.m */; settings = {ASSET_TAGS = (); }; };
 		84C9ABEF1C058FC600DD7DFB /* MappingModel2to3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABEE1C058FC600DD7DFB /* MappingModel2to3.xcmappingmodel */; settings = {ASSET_TAGS = (); }; };
+		84C9ABF31C059E5E00DD7DFB /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABF21C059E5E00DD7DFB /* APIManager.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABF61C05A62200DD7DFB /* Country+JSONMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABF51C05A62200DD7DFB /* Country+JSONMapping.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABFC1C05A72A00DD7DFB /* Country+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABF91C05A72A00DD7DFB /* Country+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		84C9ABFD1C05A72A00DD7DFB /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABFB1C05A72A00DD7DFB /* Country.m */; settings = {ASSET_TAGS = (); }; };
+		84C9AC001C05AF2A00DD7DFB /* CountryListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C9ABFF1C05AF2A00DD7DFB /* CountryListController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84C8B5AB1C0D97E00066EA9A /* coredata 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "coredata 5.xcdatamodel"; sourceTree = "<group>"; };
+		84C8B5AD1C0D99E60066EA9A /* Country+Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Country+Annotation.h"; path = "Models/Country+Annotation.h"; sourceTree = "<group>"; };
+		84C8B5AE1C0D99E60066EA9A /* Country+Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Country+Annotation.m"; path = "Models/Country+Annotation.m"; sourceTree = "<group>"; };
+		84C8B5B01C0D9A170066EA9A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84C8B5B31C0D9BE00066EA9A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		84C8B5B41C0D9BE00066EA9A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		84C8B5B61C0DA3F20066EA9A /* ContactsByCountryTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsByCountryTVC.h; sourceTree = "<group>"; };
+		84C8B5B71C0DA3F20066EA9A /* ContactsByCountryTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsByCountryTVC.m; sourceTree = "<group>"; };
 		84C9AB7E1BFC6A7E00DD7DFB /* coredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coredata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C9AB821BFC6A7E00DD7DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84C9AB841BFC6A7E00DD7DFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,11 +75,18 @@
 		84C9ABBD1C0312DB00DD7DFB /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
 		84C9ABBE1C0312DB00DD7DFB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		84C9ABBF1C0312DB00DD7DFB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		84C9ABC01C0312DB00DD7DFB /* Country+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+CoreDataProperties.h"; sourceTree = "<group>"; };
-		84C9ABC11C0312DB00DD7DFB /* Country+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+CoreDataProperties.m"; sourceTree = "<group>"; };
-		84C9ABC21C0312DB00DD7DFB /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
-		84C9ABC31C0312DB00DD7DFB /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
 		84C9ABEE1C058FC600DD7DFB /* MappingModel2to3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = MappingModel2to3.xcmappingmodel; sourceTree = "<group>"; };
+		84C9ABF11C059E5E00DD7DFB /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIManager.h; path = Network/APIManager.h; sourceTree = "<group>"; };
+		84C9ABF21C059E5E00DD7DFB /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIManager.m; path = Network/APIManager.m; sourceTree = "<group>"; };
+		84C9ABF41C05A62200DD7DFB /* Country+JSONMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Country+JSONMapping.h"; path = "Models/Country+JSONMapping.h"; sourceTree = "<group>"; };
+		84C9ABF51C05A62200DD7DFB /* Country+JSONMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Country+JSONMapping.m"; path = "Models/Country+JSONMapping.m"; sourceTree = "<group>"; };
+		84C9ABF71C05A6E500DD7DFB /* coredata 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "coredata 4.xcdatamodel"; sourceTree = "<group>"; };
+		84C9ABF81C05A72A00DD7DFB /* Country+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Country+CoreDataProperties.h"; path = "Models/Country+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84C9ABF91C05A72A00DD7DFB /* Country+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Country+CoreDataProperties.m"; path = "Models/Country+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84C9ABFA1C05A72A00DD7DFB /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Country.h; path = Models/Country.h; sourceTree = "<group>"; };
+		84C9ABFB1C05A72A00DD7DFB /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Country.m; path = Models/Country.m; sourceTree = "<group>"; };
+		84C9ABFE1C05AF2A00DD7DFB /* CountryListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryListController.h; sourceTree = "<group>"; };
+		84C9ABFF1C05AF2A00DD7DFB /* CountryListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +94,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C8B5B11C0D9A170066EA9A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84C8B5AC1C0D99AE0066EA9A /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				84C8B5AD1C0D99E60066EA9A /* Country+Annotation.h */,
+				84C8B5AE1C0D99E60066EA9A /* Country+Annotation.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		84C8B5B21C0D9A240066EA9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C8B5B01C0D9A170066EA9A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		84C9AB751BFC6A7E00DD7DFB = {
 			isa = PBXGroup;
 			children = (
@@ -97,19 +138,26 @@
 		84C9AB801BFC6A7E00DD7DFB /* coredata */ = {
 			isa = PBXGroup;
 			children = (
-				84C9ABAF1BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.h */,
-				84C9ABB01BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.m */,
+				84C8B5AC1C0D99AE0066EA9A /* Map */,
+				84C9ABF01C059E3A00DD7DFB /* Network */,
 				84C9ABAB1BFC72A800DD7DFB /* Cells */,
 				84C9AB9B1BFC704000DD7DFB /* Models */,
+				84C8B5B31C0D9BE00066EA9A /* MapViewController.h */,
+				84C8B5B41C0D9BE00066EA9A /* MapViewController.m */,
 				84C9AB871BFC6A7E00DD7DFB /* ViewController.h */,
 				84C9AB881BFC6A7E00DD7DFB /* ViewController.m */,
 				84C9ABAC1BFC73C100DD7DFB /* AddPersonController.h */,
 				84C9ABAD1BFC73C100DD7DFB /* AddPersonController.m */,
+				84C9ABFE1C05AF2A00DD7DFB /* CountryListController.h */,
+				84C9ABFF1C05AF2A00DD7DFB /* CountryListController.m */,
+				84C8B5B61C0DA3F20066EA9A /* ContactsByCountryTVC.h */,
+				84C8B5B71C0DA3F20066EA9A /* ContactsByCountryTVC.m */,
 				84C9AB8A1BFC6A7F00DD7DFB /* Main.storyboard */,
 				84C9AB901BFC6A7F00DD7DFB /* Assets.xcassets */,
 				84C9AB921BFC6A7F00DD7DFB /* LaunchScreen.storyboard */,
 				84C9AB951BFC6A7F00DD7DFB /* Info.plist */,
 				84C9AB8D1BFC6A7F00DD7DFB /* coredata.xcdatamodeld */,
+				84C8B5B21C0D9A240066EA9A /* Frameworks */,
 				84C9AB811BFC6A7E00DD7DFB /* Supporting Files */,
 			);
 			path = coredata;
@@ -128,14 +176,16 @@
 		84C9AB9B1BFC704000DD7DFB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84C9ABF81C05A72A00DD7DFB /* Country+CoreDataProperties.h */,
+				84C9ABF91C05A72A00DD7DFB /* Country+CoreDataProperties.m */,
+				84C9ABFA1C05A72A00DD7DFB /* Country.h */,
+				84C9ABFB1C05A72A00DD7DFB /* Country.m */,
+				84C9ABAF1BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.h */,
+				84C9ABB01BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.m */,
 				84C9ABBC1C0312DB00DD7DFB /* Person+CoreDataProperties.h */,
 				84C9ABBD1C0312DB00DD7DFB /* Person+CoreDataProperties.m */,
 				84C9ABBE1C0312DB00DD7DFB /* Person.h */,
 				84C9ABBF1C0312DB00DD7DFB /* Person.m */,
-				84C9ABC01C0312DB00DD7DFB /* Country+CoreDataProperties.h */,
-				84C9ABC11C0312DB00DD7DFB /* Country+CoreDataProperties.m */,
-				84C9ABC21C0312DB00DD7DFB /* Country.h */,
-				84C9ABC31C0312DB00DD7DFB /* Country.m */,
 				84C9ABEE1C058FC600DD7DFB /* MappingModel2to3.xcmappingmodel */,
 				84C9ABB21C03019800DD7DFB /* NSManagedObject+ActiveDirectory.h */,
 				84C9ABB31C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m */,
@@ -145,6 +195,8 @@
 				84C9ABA31BFC70A800DD7DFB /* Phone.m */,
 				84C9ABB91C0310E900DD7DFB /* PersonMigrationPolicy.h */,
 				84C9ABBA1C0310E900DD7DFB /* PersonMigrationPolicy.m */,
+				84C9ABF41C05A62200DD7DFB /* Country+JSONMapping.h */,
+				84C9ABF51C05A62200DD7DFB /* Country+JSONMapping.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -156,6 +208,15 @@
 				84C9ABA91BFC72A300DD7DFB /* TextFieldTableViewCell.m */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		84C9ABF01C059E3A00DD7DFB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84C9ABF11C059E5E00DD7DFB /* APIManager.h */,
+				84C9ABF21C059E5E00DD7DFB /* APIManager.m */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,22 +289,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C8B5B81C0DA3F20066EA9A /* ContactsByCountryTVC.m in Sources */,
 				84C9ABAE1BFC73C100DD7DFB /* AddPersonController.m in Sources */,
 				84C9ABA61BFC70A800DD7DFB /* Phone+CoreDataProperties.m in Sources */,
+				84C9ABFC1C05A72A00DD7DFB /* Country+CoreDataProperties.m in Sources */,
 				84C9ABC51C0312DB00DD7DFB /* Person.m in Sources */,
+				84C9ABFD1C05A72A00DD7DFB /* Country.m in Sources */,
 				84C9ABBB1C0310E900DD7DFB /* PersonMigrationPolicy.m in Sources */,
+				84C8B5B51C0D9BE00066EA9A /* MapViewController.m in Sources */,
 				84C9ABB41C03019800DD7DFB /* NSManagedObject+ActiveDirectory.m in Sources */,
-				84C9ABC61C0312DB00DD7DFB /* Country+CoreDataProperties.m in Sources */,
 				84C9AB8F1BFC6A7F00DD7DFB /* coredata.xcdatamodeld in Sources */,
 				84C9AB891BFC6A7E00DD7DFB /* ViewController.m in Sources */,
 				84C9ABEF1C058FC600DD7DFB /* MappingModel2to3.xcmappingmodel in Sources */,
-				84C9ABC71C0312DB00DD7DFB /* Country.m in Sources */,
 				84C9ABB11BFC751E00DD7DFB /* NSManagedObjectContext+MainContext.m in Sources */,
 				84C9ABC41C0312DB00DD7DFB /* Person+CoreDataProperties.m in Sources */,
 				84C9ABA71BFC70A800DD7DFB /* Phone.m in Sources */,
 				84C9AB861BFC6A7E00DD7DFB /* AppDelegate.m in Sources */,
+				84C9AC001C05AF2A00DD7DFB /* CountryListController.m in Sources */,
 				84C9AB831BFC6A7E00DD7DFB /* main.m in Sources */,
+				84C9ABF31C059E5E00DD7DFB /* APIManager.m in Sources */,
+				84C8B5AF1C0D99E60066EA9A /* Country+Annotation.m in Sources */,
 				84C9ABAA1BFC72A300DD7DFB /* TextFieldTableViewCell.m in Sources */,
+				84C9ABF61C05A62200DD7DFB /* Country+JSONMapping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +465,13 @@
 		84C9AB8D1BFC6A7F00DD7DFB /* coredata.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				84C8B5AB1C0D97E00066EA9A /* coredata 5.xcdatamodel */,
+				84C9ABF71C05A6E500DD7DFB /* coredata 4.xcdatamodel */,
 				84C9ABB61C030EFF00DD7DFB /* coredata 3.xcdatamodel */,
 				84C9ABB51C030A2F00DD7DFB /* coredata 2.xcdatamodel */,
 				84C9AB8E1BFC6A7F00DD7DFB /* coredata.xcdatamodel */,
 			);
-			currentVersion = 84C9ABB61C030EFF00DD7DFB /* coredata 3.xcdatamodel */;
+			currentVersion = 84C8B5AB1C0D97E00066EA9A /* coredata 5.xcdatamodel */;
 			path = coredata.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

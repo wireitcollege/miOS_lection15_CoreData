@@ -11,6 +11,7 @@
 @interface NSManagedObjectContext (MainContext)
 
 + (instancetype)mainContext;
++ (instancetype)childContext;
 - (void)saveContext;
 
 @end

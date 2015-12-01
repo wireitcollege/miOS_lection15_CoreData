@@ -2,7 +2,7 @@
 //  Country+CoreDataProperties.h
 //  coredata
 //
-//  Created by Admin on 11/23/15.
+//  Created by Admin on 11/25/15.
 //  Copyright © 2015 Wire IT College. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -15,7 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Country (CoreDataProperties)
 
-@property (nullable, nonatomic, retain) NSString * name;
+@property (nullable, nonatomic, retain) NSString *name;
+@property (nullable, nonatomic, retain) NSString *region;
+@property (nullable, nonatomic, retain) NSString *capital;
+@property (nullable, nonatomic, retain) NSNumber *population;
+@property (nullable, nonatomic, retain) NSNumber *longitude;
+@property (nullable, nonatomic, retain) NSNumber *latitude;
 @property (nullable, nonatomic, retain) NSSet<Person *> *people;
 
 @end

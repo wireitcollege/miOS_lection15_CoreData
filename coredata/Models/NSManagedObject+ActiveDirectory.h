@@ -11,6 +11,7 @@
 @interface NSManagedObject (ActiveDirectory)
 
 + (instancetype)createEntity;
++ (instancetype)createEntityInContext:(NSManagedObjectContext *)context;
 + (NSFetchRequest *)request;
 + (NSFetchRequest *)requestSortingBy:(NSString *)key ascending:(BOOL)ascending withPredicate:(NSPredicate *)predicate;
 + (NSFetchRequest *)requestWithSortDescriptors:(NSArray *)terms withPredicate:(NSPredicate *)predicate;

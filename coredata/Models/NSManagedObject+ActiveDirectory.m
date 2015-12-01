@@ -16,7 +16,11 @@
 }
 
 + (instancetype)createEntity {
-    return [NSEntityDescription insertNewObjectForEntityForName:[self entityName] inManagedObjectContext:[NSManagedObjectContext mainContext]];
+    return [self createEntityInContext:[NSManagedObjectContext mainContext]];
+}
+
++ (instancetype)createEntityInContext:(NSManagedObjectContext *)context {
+    return [NSEntityDescription insertNewObjectForEntityForName:[self entityName] inManagedObjectContext:context];
 }
 
 + (NSFetchRequest *)request {

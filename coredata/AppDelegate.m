@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "APIManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[APIManager defaultManager] setOnError:^(NSError *error) {
+        // Show Alert Controller on window/ on window.rootController;
+    }];
     return YES;
 }
 
@@ -78,7 +83,8 @@
     NSError *error = nil;
     NSString *failureReason = @"There was an error creating or loading the application's saved data.";
     
-    NSDictionary *options = @{NSMigratePersistentStoresAutomaticallyOption: @YES};
+    NSDictionary *options = @{NSMigratePersistentStoresAutomaticallyOption: @YES,
+                              NSInferMappingModelAutomaticallyOption: @YES};
     
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:options error:&error]) {
         // Report any error we got.
